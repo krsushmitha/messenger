@@ -1,0 +1,7 @@
+package org.sush.javamaven.messenger.database;
+
+public class DatabaseClass {
+
+	private static Map<Long, Message> messages = new HashMap();
+	
+}

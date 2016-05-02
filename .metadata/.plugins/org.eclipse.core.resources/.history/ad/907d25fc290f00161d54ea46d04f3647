@@ -1,0 +1,9 @@
+package org.sush.javamaven.messenger.service;
+
+import org.sush.javamaven.messenger.database.DatabaseClass;
+
+public class ProfileService {
+	
+	private Map<String, Profile> profiles = DatabaseClass.getProfiles();
+
+}

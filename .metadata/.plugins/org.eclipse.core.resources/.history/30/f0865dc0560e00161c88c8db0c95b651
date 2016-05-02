@@ -1,0 +1,25 @@
+package org.sush.javamaven.messenger.service;
+
+import java.util.*;
+
+import org.sush.javamaven.messenger.database.DatabaseClass;
+import org.sush.javamaven.messenger.model.Message;
+
+public class MessageService {
+
+	private Map<Long, Message> messages= DatabaseClass.getMessages();
+	
+	public List<Message> getAllMessages(){
+		return new ArrayList<Message>(messages.values());
+	}
+	
+	public Message getMessage(long id){
+		return messages.get(id);
+	}
+	
+	public Message addMessage(Message msg){
+		msg.setId(messages.size() + 1);
+		msg.put(msg.getId(), msg);
+		return message;
+	}
+}

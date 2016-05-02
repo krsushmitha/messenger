@@ -1,0 +1,7 @@
+package org.sush.javamaven.messenger.exceptions;
+
+import javax.ws.rs.ext.ExceptionMapper;
+
+public class DataNotFoundExceptionMapper implements ExceptionMapper<DataNotFoundException>{
+
+}

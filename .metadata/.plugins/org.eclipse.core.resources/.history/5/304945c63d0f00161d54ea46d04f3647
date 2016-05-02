@@ -1,0 +1,6 @@
+package org.sush.javamaven.messenger.exceptions;
+
+public class DataNotFoundException extends RuntimeException{
+	
+
+}

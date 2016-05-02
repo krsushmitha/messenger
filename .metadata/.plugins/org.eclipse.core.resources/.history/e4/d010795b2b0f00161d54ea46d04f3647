@@ -1,0 +1,5 @@
+package org.sush.javamaven.messenger.resources;
+
+public class ProfileResource {
+
+}

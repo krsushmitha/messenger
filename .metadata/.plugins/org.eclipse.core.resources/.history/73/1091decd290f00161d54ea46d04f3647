@@ -1,0 +1,5 @@
+package org.sush.javamaven.messenger.service;
+
+public class ProfileService {
+
+}

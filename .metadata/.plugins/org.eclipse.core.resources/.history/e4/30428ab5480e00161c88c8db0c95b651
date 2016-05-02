@@ -1,0 +1,20 @@
+package org.sush.javamaven.messenger.service;
+
+import java.util.*;
+
+import org.sush.javamaven.messenger.model.Message;
+
+public class MessageService {
+
+	
+	public List<Message> getAllMessages(){
+	
+		Message m1 = new Message(1L,"Hello World!",, "Sushmitha");
+		Message m2 = new Message(2L,"Hello Jersey!",, "Sushmitha");
+		
+		List<Message> list = new ArrayList<Message>();
+		list.add(m1);
+		list.add(m2);
+		return list;
+	}
+}

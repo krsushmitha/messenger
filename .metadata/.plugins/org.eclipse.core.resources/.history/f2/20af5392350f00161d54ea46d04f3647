@@ -1,0 +1,7 @@
+package org.sush.javamaven.messenger.resources;
+
+
+@Path("/")
+public class CommentResource {
+
+}

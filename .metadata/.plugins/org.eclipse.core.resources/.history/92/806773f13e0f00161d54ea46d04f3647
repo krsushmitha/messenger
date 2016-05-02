@@ -1,0 +1,8 @@
+package org.sush.javamaven.messenger.model;
+
+public class ErrorMessage {
+
+	private errorMessage;
+	private errorCode;
+	private String documentation;
+}
